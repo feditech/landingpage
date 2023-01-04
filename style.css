@@ -121,6 +121,12 @@ nav ul li a:hover {
 }
 .productsCardContainer {
   display: flex;
-
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
+}
+
+.product_image > img{
+  height:220px !important;
+  width:300px !important;
 }
